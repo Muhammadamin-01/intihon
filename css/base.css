@@ -1,0 +1,32 @@
+/* variables */
+:root {
+  --whiite: #fff;
+  --white200: #eee;
+  --black: #000000;
+  --gray7a: #7a7a7a;
+  --gray7: #777;
+  --blue: #3cb3ab;
+  --b3: #333;
+
+  /* backround color */
+  --white400: #f9f9f9;
+  --gray100: #ccc;
+}
+
+@font-face {
+  font-family: "Commissioner";
+  src: url("Commissioner-Medium.woff2") format("woff2"),
+    url("Commissioner-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Commissioner";
+  src: url("Commissioner-Bold.woff2") format("woff2"),
+    url("Commissioner-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
